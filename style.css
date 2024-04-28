@@ -1,0 +1,92 @@
+<style>
+  body {
+    font-family: 'Open Sans', sans-serif; /* Modern font stack */
+    background-color: #ffe0cc; /* Light gray background */
+    color: #333; /* Dark text color for better contrast */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center; /* Text is already centered here */
+  }
+
+  header {
+    color: black;
+    padding: 10px 0;
+    display: flex; /* Use flexbox for alignment */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center elements horizontally within header */
+    justify-content: center; /* New line to center content horizontally */
+  }
+
+  header h1 {
+    margin: 0;
+  }
+  form {
+    background-color: #fff; /* White background */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 5px; /* Slightly sharper corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    padding: 25px; /* Increased padding for better spacing */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto; /* Center the form horizontally */
+  }
+
+  #editor {
+    height: 300px;
+    margin-bottom: 20px;
+  }
+
+  input[type="text"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+  background-color: #4CAF50; /* Green color from a modern palette */
+  color: white;
+  padding: 12px 20px; /* Adjust padding for the button shape */
+  border: none;
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+
+  button:hover {
+    background-color: #46a049; /* Slightly darker green on hover */
+  }
+
+  .github-container {
+  display: flex;
+  justify-content: center;
+  }
+
+  .github-link {
+  display: inline-block;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+  }
+
+  .github-link:hover {
+  background-color: #555;
+  }
+
+  /* Catch-all rule to center any unstyled elements (use with caution) */
+  * {
+    margin: 0 auto;  /* Center horizontally for all elements */
+  }
+</style>
